@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>老黄历 · 择吉日</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="seal">历</span>老黄历 <span class="brand-sub">择吉日</span></div>
+    <nav>
+      <a href="#/today" data-nav="today">今日</a>
+      <a href="#/pick" data-nav="pick">择吉</a>
+      <a href="#/month" data-nav="month">月历</a>
+      <a href="#/terms" data-nav="terms">节气</a>
+      <a href="#/settings" data-nav="settings">设置</a>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <footer>传统历法 · 民俗文化参考 ｜ 不构成任何现实决策依据</footer>
+  <div class="toast" id="toast"></div>
+  <script src="engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

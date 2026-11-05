@@ -1,0 +1,13 @@
+{
+  "appId": "com.wooluo.almanac",
+  "appName": "老黄历择吉日",
+  "webDir": "www",
+  "backgroundColor": "#f6efdd",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "adjustMarginsForEdgeToEdge": "force"
+  }
+}
